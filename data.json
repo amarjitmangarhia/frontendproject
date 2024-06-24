@@ -1,0 +1,228 @@
+{
+  "products": [
+    {
+      "name": "Circular Saw - 7-1/4 inch",
+      "stock_no": "HS-CS714",
+      "quantity_on_hand": 12,
+      "size": "7-1/4 inch",
+      "color": "Red"
+    },
+    {
+      "name": "Circular Saw - 10 inch",
+      "stock_no": "HS-CS10",
+      "quantity_on_hand": 5,
+      "size": "10 inch",
+      "color": "Yellow"
+    },
+    {
+      "name": "Miter Saw - 10 inch",
+      "stock_no": "HS-MS10",
+      "quantity_on_hand": 8,
+      "size": "10 inch",
+      "color": "Blue"
+    },
+    {
+      "name": "Miter Saw - 12 inch",
+      "stock_no": "HS-MS12",
+      "quantity_on_hand": 3,
+      "size": "12 inch",
+      "color": "Black"
+    },
+    {
+      "name": "Jig Saw",
+      "stock_no": "HS-JS",
+      "quantity_on_hand": 15,
+      "size": "Variable",
+      "color": "Green"
+    },
+    {
+      "name": "Reciprocating Saw",
+      "stock_no": "HS-RS",
+      "quantity_on_hand": 10,
+      "size": "Variable",
+      "color": "Silver"
+    },
+    {
+      "name": "Angle Grinder - 4-1/2 inch",
+      "stock_no": "HS-AG412",
+      "quantity_on_hand": 7,
+      "size": "4-1/2 inch",
+      "color": "Orange"
+    },
+    {
+      "name": "Angle Grinder - 7 inch",
+      "stock_no": "HS-AG7",
+      "quantity_on_hand": 4,
+      "size": "7 inch",
+      "color": "Pink"
+    },
+    {
+      "name": "Hammer Drill",
+      "stock_no": "HS-HD",
+      "quantity_on_hand": 6,
+      "size": "Variable",
+      "color": "Purple"
+    },
+    {
+      "name": "Impact Driver",
+      "stock_no": "HS-ID",
+      "quantity_on_hand": 9,
+      "size": "Variable",
+      "color": "Brown"
+    },
+    {
+      "name": "Impact Wrench",
+      "stock_no": "HS-IW",
+      "quantity_on_hand": 5,
+      "size": "Variable",
+      "color": "Gray"
+    },
+    {
+      "name": "Cordless Drill",
+      "stock_no": "HS-CD",
+      "quantity_on_hand": 11,
+      "size": "Variable",
+      "color": "White"
+    },
+    {
+      "name": "Power Planer",
+      "stock_no": "HS-PP",
+      "quantity_on_hand": 3,
+      "size": "Variable",
+      "color": "Gold"
+    },
+    {
+      "name": "Belt Sander",
+      "stock_no": "HS-BS",
+      "quantity_on_hand": 7,
+      "size": "Variable",
+      "color": "Teal"
+    },
+    {
+      "name": "Orbital Sander",
+      "stock_no": "HS-OS",
+      "quantity_on_hand": 6,
+      "size": "Variable",
+      "color": "Lime"
+    },
+    {
+      "name": "Circular Saw - 7-1/4 inch",
+      "stock_no": "HS-CS714",
+      "quantity_on_hand": 12,
+      "size": "7-1/4 inch",
+      "color": "Red"
+    },
+    {
+      "name": "Hammer - 16 oz",
+      "stock_no": "HS-HM16",
+      "quantity_on_hand": 24,
+      "size": "16 oz",
+      "color": "Yellow"
+    },
+    {
+      "name": "Screwdriver Set",
+      "stock_no": "HS-SDSET",
+      "quantity_on_hand": 6,
+      "size": "Varies",
+      "color": "Blue"
+    },
+    {
+      "name": "Pliers - 6 inch",
+      "stock_no": "HS-PL6",
+      "quantity_on_hand": 18,
+      "size": "6 inch",
+      "color": "Green"
+    },
+    {
+      "name": "Level - 24 inch",
+      "stock_no": "HS-LVL24",
+      "quantity_on_hand": 8,
+      "size": "24 inch",
+      "color": "Yellow"
+    },
+    {
+      "name": "Adjustable Wrench - 8 inch",
+      "stock_no": "HS-AW8",
+      "quantity_on_hand": 10,
+      "size": "8 inch",
+      "color": "Silver"
+    },
+    {
+      "name": "Tape Measure - 25 feet",
+      "stock_no": "HS-TM25",
+      "quantity_on_hand": 14,
+      "size": "25 feet",
+      "color": "Black"
+    },
+    {
+      "name": "Utility Knife",
+      "stock_no": "HS-UK",
+      "quantity_on_hand": 22,
+      "size": "Varies",
+      "color": "Orange"
+    },
+    {
+      "name": "Chisel Set",
+      "stock_no": "HS-CHSET",
+      "quantity_on_hand": 4,
+      "size": "Varies",
+      "color": "Brown"
+    },
+    {
+      "name": "Cordless Drill - 18V",
+      "stock_no": "HS-CD18V",
+      "quantity_on_hand": 6,
+      "size": "Varies",
+      "color": "Blue"
+    },
+    {
+      "name": "Sander - 5 inch",
+      "stock_no": "HS-SND5",
+      "quantity_on_hand": 9,
+      "size": "5 inch",
+      "color": "Red"
+    },
+    {
+      "name": "Claw Hammer - 20 oz",
+      "stock_no": "HS-CH20",
+      "quantity_on_hand": 16,
+      "size": "20 oz",
+      "color": "Yellow"
+    },
+    {
+      "name": "Hacksaw",
+      "stock_no": "HS-HS",
+      "quantity_on_hand": 7,
+      "size": "Varies",
+      "color": "Silver"
+    },
+    {
+      "name": "Crowbar - 24 inch",
+      "stock_no": "HS-CB24",
+      "quantity_on_hand": 3,
+      "size": "24 inch",
+      "color": "Silver"
+    },
+    {
+      "name": "Pry Bar - 18 inch",
+      "stock_no": "HS-PB18",
+      "quantity_on_hand": 5,
+      "size": "18 inch",
+      "color": "Red"
+    },
+    {
+      "name": "Jigsaw",
+      "stock_no": "HS-JS",
+      "quantity_on_hand": 11,
+      "size": "Varies",
+      "color": "Black"
+    },
+    {
+      "name": "Hand Saw",
+      "stock_no": "HS-HS",
+      "quantity_on_hand": 13,
+      "size": "Varies",
+      "color": "Silver"
+    }
+  ]
+}

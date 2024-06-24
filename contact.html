@@ -1,0 +1,112 @@
+<!-- Name: Amarjit Singh, Date 06/OCT/2022 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./scripts/scripts.js"></script>
+
+    
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <!-- logo of the website -->
+            <a href="index.html"> <img class="logo" src="./images/logo.png" alt="website_logo"></a>
+            <!-- defining unordered list for menu bar -->
+            <ul class="menu">
+
+                <a href="index.html">
+                    <li class="menu-items">Home</li>
+                </a>
+                <a href="about.html">
+                    <li class="menu-items">About</li>
+                </a>
+                <a href="team.html">
+                    <li class="menu-items">
+                        Our Team</li>
+                </a>
+                <a href="specials.html">
+                    <li class="menu-items">Specials</li>
+                </a>
+                <a href="training.html">
+                    <li class="menu-items">Training</li>
+                </a>
+                <a href="media.html">
+                    <li class="menu-items">Media</li>
+                </a>
+                <a href="contact.html">
+                    <li class="menu-items">Contact Us</li>
+                </a>
+
+                <a href="data.html">
+                    <li class="menu-items">Products</li>
+                </a>
+                <li class="menu-items drop">Reports
+
+                    <!-- this is a dropdown menu and show the links when you hover a mouse-->
+                    <div class="reports">
+                        <a class="report" href="report_1.html" target="_blank">Report 1</a>
+                        <a class="report" href="report_2.html" target="_blank">Report 2</a>
+                        <a class="report" href="report_3.html" target="_blank">Report 3</a>
+                        <a class="report" href="report_4.html" target="_blank">Report 4</a>
+                    </div>
+
+                </li>
+            </ul>
+        </nav>
+        <img class="bannerImage" src="./images/contact-us.jpg" alt="contact-us">
+        <main class="contact-main">
+            <form class="contact-form">
+                <fieldset>
+                    <legend>Get In Touch</legend>
+                    <p style="margin-bottom: 10px; font-weight: 400;">We are open for any suggestion and query.</p>
+                    <label for="">First Name</label>
+                    <input type="text" id="fname" placeholder="First Name">
+                    <label for="">Last Name</label>
+                    <input type="text" id="lname" placeholder="Last Name">
+                    <label for="">Email</label>
+                    <input type="email" name="" id="email" placeholder="email...">
+                    <div class="gender">
+                        <label for="">Male</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="">Female</label>
+                        <input type="radio" name="gender" id="female">
+                    </div>
+                    <div class="query_complaint">
+                        <select name="query" id="query">
+                            <option value="query">Query</option>
+                            <option value="Complaint">Complaint</option>
+                        </select>
+                    </div>
+                    <div class="robot">
+                        <input type="checkbox" name="robot" id="robot"> I am not a Robot.
+                    </div>
+                    <div class="textarea">
+                        <label for="">Message</label> <br>
+                        <textarea name="" id="textarea" cols="55" rows="8" placeholder="enter your message..."></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Submit</button>
+                        <button>Reset</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            &copy; Copyright 2022. All Rights Reserved.<br> <br>
+            <a href="mailto:info@circularsaw.com">Request information</a><br>
+            Built By: Amarjit Singh &nbsp;&nbsp; Student Id: C0865920
+        </footer>
+    </div>
+</body>
+
+</html>

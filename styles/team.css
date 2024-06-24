@@ -1,0 +1,154 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid;
+  width: 80%;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.about-team {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-team h1 {
+  font-weight: 800;
+}
+
+.about-team h1,
+.our-team h2,
+.our-story h3 {
+  background-color: black;
+  padding: 5px;
+  color: white;
+  transform: skewX(-10deg);
+  margin: 20px;
+}
+
+.about-team p {
+  padding: 40px;
+  max-width: 50em;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.our-team {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-team h2 {
+  font-weight: 600;
+}
+
+.our-team p {
+  margin-bottom: 20px;
+}
+
+.team_content .left{
+ width: 60%;
+ transition: 0.5s;
+ margin-right: 20px;
+}
+
+
+
+.team_content {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team_content .right img {
+  width: 100%;
+  min-width: 300px;
+  height: 350px;
+}
+
+.our-team-members {
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px dashed;
+}
+
+.our-team-members figcaption {
+  margin-bottom: 10px;
+}
+
+.our-team-member img {
+  width: 100px;
+  height: 120px;
+  margin: 0 20px;
+  border: 2px dashed;
+
+  animation: moves 5s infinite alternate-reverse;
+}
+
+.our-team-member p {
+  margin: 0 10px;
+}
+
+.our-story h3 {
+  font-weight: 600;
+}
+
+.our-story p {
+  max-width: 60rem;
+}
+
+@media screen and (max-width: 910px) {
+  .team_content {
+    flex-direction: column;
+  }
+
+  .team_content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team_content .right img {
+    width: 100%;
+    min-width: 150px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-team p {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contents {
+    width: 100%;
+    margin: 0px auto;
+  }
+}
+
+@keyframes moves {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,35 @@
+.index-media {
+    margin: auto;
+}
+
+
+.video_controls {
+    margin: 20px 0;
+    width: 1000px;   
+    height: auto;
+}
+
+.audio_controls {
+    margin: 20px;
+    width: 400px;
+}
+
+@media screen and (max-width:1005px) {
+
+    .index-media {
+        margin: 5px;    
+    }
+    .video_controls {
+        margin: 20px 0;
+        width: 100%;   
+        height: auto;
+    }  
+}
+
+
+@media screen and (max-width:450px) {
+    .audio_controls {
+        margin: 10px 0;
+        width: 100%;
+    }
+}

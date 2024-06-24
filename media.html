@@ -1,0 +1,97 @@
+<!-- Name: Amarjit Singh, Date 06/OCT/2022 -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- media file where i included media content such as video and audio -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/media.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <!-- logo of the website -->
+            <a href="index.html"> <img class="logo" src="./images/logo.png" alt="website_logo"></a>
+            <!-- defining unordered list for menu bar -->
+            <ul class="menu">
+
+                <a href="index.html">
+                    <li class="menu-items">Home</li>
+                </a>
+                <a href="about.html">
+                    <li class="menu-items">About</li>
+                </a>
+                <a href="team.html">
+                    <li class="menu-items">
+                        Our Team</li>
+                </a>
+                <a href="specials.html">
+                    <li class="menu-items">Specials</li>
+                </a>
+                <a href="training.html">
+                    <li class="menu-items">Training</li>
+                </a>
+                <a href="media.html">
+                    <li class="menu-items">Media</li>
+                </a>
+                <a href="contact.html">
+                    <li class="menu-items">Contact Us</li>
+                </a>
+
+                <a href="data.html">
+                    <li class="menu-items">Products</li>
+                </a>
+                <li class="menu-items drop">Reports
+
+                    <!-- this is a dropdown menu and show the links when you hover a mouse-->
+                    <div class="reports">
+                        <a class="report" href="report_1.html" target="_blank">Report 1</a>
+                        <a class="report" href="report_2.html" target="_blank">Report 2</a>
+                        <a class="report" href="report_3.html" target="_blank">Report 3</a>
+                        <a class="report" href="report_4.html" target="_blank">Report 4</a>
+                    </div>
+
+                </li>
+            </ul>
+        </nav>
+        <img class="bannerImage" src="./images/media_banner.png" alt="circular_saw_banner_image">
+        <main class="index-media">
+            <!-- video control -->
+            <div class="videos">
+                <video class="video_controls" controls>
+                    <source src="./media/Robot.mp4" type="video/mp4">
+                    </source>
+                </video>
+                <p style="font-weight: 600;">A video showing our Product.</p>
+                <video class="video_controls" controls>
+                    <source src="./media/handsaw_video.mp4" type="video/mp4">
+                    </source>
+                </video>
+            </div>
+            <!-- audio control -->
+            <div class="audios">
+                <p style="font-weight: 600;">An Audio.</p>
+
+                <audio class="audio_controls" controls>
+                    <source src="./media/audio1.mp3" type="audio/mp3">
+                    <source src="./media/audio2.mp3" type="audio/mp3">
+                    <!-- paragraph will show in case of any error -->
+                    <p>Your Browser does not support this file format.</p>
+                </audio>
+            </div>
+        </main>
+        <footer>
+            &copy; Copyright 2099. All Rights Reserved.<br> <br>
+            <a href="mailto:info@circularsaw.com">Request information</a><br>
+            Built By: Amarjit Singh &nbsp;&nbsp; Student Id: C0865920
+
+        </footer>
+    </div>
+</body>
+
+</html>

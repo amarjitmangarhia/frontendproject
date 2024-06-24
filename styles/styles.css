@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --antiquewhite: antiquewhite;
+  --white: #ffffff;
+  --black: #161514;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  min-height: 100vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  background-color: var(--antiquewhite);
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin: 10px 50px;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+}
+
+.bannerImage {
+  width: 100%;
+  height: 650px;
+  max-width: 100%;
+}
+
+nav {
+  background-color: var(--antiquewhite);
+}
+
+.menu {
+  list-style-type: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu .reports {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  z-index: 999;
+}
+
+.report {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.reports a {
+  display: block;
+  width: 100px;
+  margin: 5px 0px;
+}
+.reports a:hover {
+  background-color: rgb(133, 128, 122);
+}
+
+.drop {
+  cursor: pointer;
+}
+
+.drop:hover .reports {
+  display: block;
+  cursor: pointer;
+}
+
+.menu li {
+  position: relative;
+  display: inline-block;
+  background-color: var(--black);
+  padding: 10px;
+  color: var(--white);
+  margin: 8px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.menu li:hover {
+  background-color: rgb(133, 128, 122);
+}
+
+.index-main {
+  display: block;
+  text-align: center;
+  color: black;
+  margin: 25px auto;
+  padding: 10%;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px --var(black);
+}
+
+.index-main h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 20px 0;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 0.2s;
+}
+
+.index-main h1:hover {
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  cursor: pointer;
+}
+
+.index-main p {
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+span {
+  font-weight: 600;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: auto 0;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .index-main {
+    width: 90%;
+  }
+
+  .menu {
+    list-style-type: none;
+    padding: 20px;
+  }
+}
+
+
+@media screen and (max-width: 981px) {
+  .logo {
+    margin: 20px 50px;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bannerImage {
+    /* object-fit: cover; */
+    margin: 0;
+    /* margin-top: -50px; */
+  }
+
+  /* .index-main h1 {
+    margin-top: -100px;
+  } */
+}
+
+@media screen and (max-width: 790px) {
+  .plugin_menu {
+    display: none;
+  }
+}
+
+
+.plugin_menu {
+  position: fixed;
+  background-color: rgb(215, 192, 192);
+  padding: 20px;
+  z-index: 1;
+  bottom: 0px;
+  border-radius: 20px;
+  /* opacity: 0.5; */
+  cursor: pointer;
+}
+
+.plugin_menu ul {
+  list-style: none;
+}
+
+.plugin_menu ul li {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.plugin_menu ul li:hover {
+  background-color: rgb(183, 164, 164);
+  cursor: pointer;
+}

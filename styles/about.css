@@ -1,0 +1,160 @@
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+.one {
+  padding: 100px 100px;
+  background-color: antiquewhite;
+  font-size: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.two {
+  background-color: azure;
+}
+
+.two p {
+  width: 100%;
+  max-width: 800px;
+}
+
+.two img,
+.three img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.inc {
+  border: 20px solid;
+}
+
+
+.three img {
+  margin-top: 20px;
+}
+
+.three {
+  background-color: yellow;
+}
+
+.three p {
+  width: 100%;
+  max-width: 800px;
+}
+
+.four {
+  background-color: antiquewhite;
+}
+
+.four h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.four p {
+  width: 100%;
+  max-width: 800px;
+}
+
+.four ul {
+  text-align: left;
+  list-style: none;
+  margin: 20px 0;
+}
+
+.four  ul li {
+  background-color: black;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  padding-left: 2px;
+  position: relative;
+  padding: 10px;
+  transition: 0.2s;
+  margin-bottom: 20px;
+}
+
+.four ul li:hover {
+  cursor: pointer;
+  background-color: rgb(30, 30, 30);
+  transform: skew(-10deg);
+}
+
+.xyz {
+  width: 50%;
+}
+
+.xyz ul li  {
+  border: 5px solid;
+}
+
+.four{
+  border: 1px solid;
+  padding: 100px 30px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.five {
+  background-color: rgb(250, 237, 185);
+}
+
+.five h3 {
+  background-color: black;
+  color: white;
+  transform: skew(10deg);
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.five p {
+  width: 100%;
+  max-width: 800px;
+}
+
+.five .team {
+  font-weight: 400;
+}
+
+.two,
+.three,
+.five {
+  padding: 100px 30px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .one {
+    padding: 50px 10px;
+    background-color: antiquewhite;
+    font-size: 30px;
+    height: 350px;
+  }
+
+  .container .bannerImage {
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .xyz {
+    width: 100%;
+  }
+}

@@ -1,0 +1,149 @@
+<!-- Name: Amarjit Singh, Date 06/OCT/2022 -->
+<p style="text-align: center;">All the images and illustrations used in this website are from <a
+        href="https://pixabay.com/" target="_blank"> <span>
+            Pixabay</span></a></p>
+<!-- Doc type -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- A viewport tag makes sure a site display well on all device (mobile phones, tablets, computers, and even on larger screens) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Saw</title>
+    <!-- includes stylesheet -->
+
+
+    <!-- slick -->
+
+    <head>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script src="./scripts/menu.plugin.js"></script>
+      </head>
+      
+
+    <!-- slick -->
+
+
+
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./scripts/scripts.js"></script>
+
+</head>
+
+<body>
+<div class="plugin_menu">
+    <ul>
+        <a href="http://127.0.0.1:5500/index.html"> <li> Home</li> </a>
+        <a href="http://127.0.0.1:5500/about.html"><li>About</li></a>
+        <a href="http://127.0.0.1:5500/contact.html"><li>Contact</li></a>
+    </ul>
+</div>
+    <!-- container div where all the content goes -->
+    <div class="container">
+        <!-- navigation bar -->
+        <nav>
+            <!-- logo of the website -->
+            <a href="index.html"> <img class="logo" src="./images/logo.png" alt="website_logo"></a>
+            <!-- defining unordered list for menu bar -->
+            <ul class="menu">
+
+                <a href="index.html">
+                    <li class="menu-items">Home</li>
+                </a>
+                <a href="about.html">
+                    <li class="menu-items">About</li>
+                </a>
+                <a href="team.html">
+                    <li class="menu-items">
+                        Our Team</li>
+                </a>
+                <a href="specials.html">
+                    <li class="menu-items">Specials</li>
+                </a>
+                <a href="training.html">
+                    <li class="menu-items">Training</li>
+                </a>
+                <a href="media.html">
+                    <li class="menu-items">Media</li>
+                </a>
+                <a href="contact.html">
+                    <li class="menu-items">Contact Us</li>
+                </a>
+                <a href="data.html">
+                    <li class="menu-items">Products</li>
+                </a>
+                <li class="menu-items drop">Reports
+
+                    <!-- this is a dropdown menu and show the links when you hover a mouse-->
+                    <div class="reports">
+                        <a class="report" href="report_1.html" target="_blank">Report 1</a>
+                        <a class="report" href="report_2.html" target="_blank">Report 2</a>
+                        <a class="report" href="report_3.html" target="_blank">Report 3</a>
+                        <a class="report" href="report_4.html" target="_blank">Report 4</a>
+                    </div>
+
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="slider">
+            <div><img class="bannerImage" src="./images/about banner.jpg"></div>
+            <div><img class="bannerImage" src="./images/carpenter.jpg"></div>
+            <div><img class="bannerImage" src="./images/media_banner.png"></div>
+            <div><img class="bannerImage" src="./images/training_banner.jpg"></div>
+            <div><img class="bannerImage" src="./images/banner_image.jpeg"></div>
+            <div><img class="bannerImage" src="./images/product-of-the-week.jpg"></div>
+          </div>
+          
+
+       
+
+        <!-- this is a banner image for the webpage -->
+        <!-- <img class="bannerImage" src="./images/special.jpg" alt="circular_saw_banner_image"> -->
+        <!-- all the content goes into main tag -->
+        <main class="index-main">
+            <h1>HandyMan Saw</h1>
+            <p>We are world leader in <span>power tools</span>, <span> rotary </span> and <span> circular saws.</span>
+                Handyman Saw
+                Corporation designs,
+                manufactures and sells power tools and circular saws.
+                We have all the circular saws that can accurately shape your project and cut it to perfection. Any piece
+                of wood or steel can be cut by our product thanks to its high torque and speed.</p>
+            <p> Learn More <a style="text-decoration: underline;" href="./about.html">About Us</a></p>
+        </main>
+        <!-- defining footer -->
+        <footer>
+            &copy; Copyright 2099. All Rights Reserved.<br> <br>
+            <a href="mailto:info@circularsaw.com">Request information</a><br>
+            Built By: Amarjit Singh &nbsp;&nbsp; Student Id: C0865920
+
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- Jquery slider -->
+    <script>
+        $(document).ready(function(){
+          $('.slider').slick({
+            autoplay: true,
+            dots: true,
+            arrows: true,
+            fade: true
+          });
+        });
+      </script>
+      
+</body>
+
+</html>
